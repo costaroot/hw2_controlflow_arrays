@@ -6,6 +6,6 @@ public class Main {
         TaskManager task = new TaskManager();
         task.arrayTask();
         task.matrixTask();
-        task.checkDublicateTask();
+        task.checkDuplicateTask();
     }
 }

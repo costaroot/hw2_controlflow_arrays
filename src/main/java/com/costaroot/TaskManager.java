@@ -5,7 +5,7 @@ public class TaskManager {
         System.out.print("-----Task1-----");
         ArraysOperations arrOperation = new ArraysOperations();
         int[] arr = new int[20];
-        arr = arrOperation.createRandArray(arr.length, 10);
+        arr = arrOperation.createRandArray(arr.length, 15);
         arrOperation.printArray(arr);
         System.out.print("\nMin val=" + arrOperation.minValueOfArray(arr));
         System.out.print("\nMax val=" + arrOperation.maxValueOfArray(arr));
@@ -30,13 +30,13 @@ public class TaskManager {
         test.printMainDiagMatrix(text);
     }
 
-    void checkDublicateTask() {
+    void checkDuplicateTask() {
         System.out.print("\n -----Task3-----");
         ArraysOperations arrOperation = new ArraysOperations();
         int[] arr = new int[25];
         arr = arrOperation.createRandArray(arr.length, 10);
         arrOperation.printArray(arr);
-        arrOperation.checkDublicate(arr, 15);
+        arrOperation.checkDuplicate(arr, 15);
         arrOperation.printArray(arr);
     }
 }
